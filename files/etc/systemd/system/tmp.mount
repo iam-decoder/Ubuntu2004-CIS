@@ -22,7 +22,7 @@ After=swap.target
 What=tmpfs
 Where=/tmp
 Type=tmpfs
-Options=mode=1777,strictatime,nosuid,nodev,noexec,size=50%,nr_inodes=400k
+Options=mode=1777,strictatime,nosuid,nodev,noexec
 
 # Make 'systemctl enable tmp.mount' work:
 [Install]
