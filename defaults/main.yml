@@ -339,7 +339,7 @@ ubuntu1804cis_config_aide: true
 # AIDE cron settings
 ubuntu1804cis_aide_cron:
   cron_user: root
-  cron_file: /etc/crontab
+  cron_file: /etc/cron.d/aide
   aide_job: '/usr/bin/aide.wrapper --config /etc/aide/aide.conf --check'
   aide_minute: 0
   aide_hour: 5
